@@ -92,14 +92,14 @@ streamlit run app.py
 ```
 insurance-premium-prediction/
 ├── data/
-│   ├── general_dataset.csv
-│   └── age_18_25_dataset.csv
+│   ├── premiums.csv
+│   └── premiums_young_with_gr.csv
 ├── notebooks/
 │   └── insurance_premium_prediction.ipynb
 ├── models/
-│   ├── model_18_25.joblib
-│   └── model_26_plus.joblib
-├── app.py
+│   ├── model_young.joblib
+│   └── model_rest.joblib
+├── main.py
 ├── requirements.txt
 └── README.md
 ```
